@@ -9,12 +9,8 @@ import math
 
 def area(radius):
     area = math.pi * (radius ** 2)
-    print(f"The area of the pie is {area:.2f}")
+    print(f"The area of the circle is {area:.2f}")
 
 def circumference(radius):
     circumference = 2 * math.pi * radius * 2
-    print(f"The circumference of the pie is {circumference:.2f}")
-
-
-area(float(input("Enter the radius of the pie!")))
-circumference(float(input("Enter the radius of the pie!")))
+    print(f"The circumference of the circle is {circumference:.2f}")
