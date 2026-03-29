@@ -6,8 +6,9 @@ geometry calcuator
 """
 
 #have to use aliases cause both modules have functions named area.
-from circle.py import area as ca
-from circle.py import circumference as cc
-from rectangle.py import area as ra
-from circle.py import perimeter as rp
+from circle import area as ca
+from circle import circumference as cc
+from rectangle import area as ra
+from rectangle import perimeter as rp
 
+ca(float(input()))
