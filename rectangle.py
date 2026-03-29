@@ -8,3 +8,7 @@ rectangle math
 def area(width, height):
     area = width * height
     print(f"The area of the rectangle is {area}")
+
+def perimeter(width, height):
+    perimeter = (width * 2) + (height * 2)
+    print(f"The perimeter of the rectangle is {perimeter}")
